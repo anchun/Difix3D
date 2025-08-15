@@ -5,6 +5,8 @@ import time
 from dataclasses import dataclass, field
 from collections import defaultdict
 from typing import Dict, List, Optional, Tuple, Union
+import sys
+sys.path.append('.')
 
 import imageio
 import nerfview

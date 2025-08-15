@@ -7,7 +7,7 @@ import cv2
 import imageio.v2 as imageio
 import numpy as np
 import torch
-from pycolmap import SceneManager
+from .pycolmap import SceneManager
 
 from .normalize import (
     align_principle_axes,
